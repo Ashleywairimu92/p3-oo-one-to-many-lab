@@ -80,3 +80,4 @@ def test_get_sorted_pets():
     pet4 = Pet("Jerry", "reptile", owner)
     
     assert owner.get_sorted_pets() == [pet2, pet1, pet4, pet3]
+    
